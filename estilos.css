@@ -1,0 +1,110 @@
+body {
+    font-family: 'Nunito'; /* Definido a fonte do corpo do documento */
+    margin: 0; /* Removido margem padrão */
+    padding: 0; /* Removido padding padrão */
+    background-color: #f4f4f4; /* Definido a cor de fundo como cinza claro */
+    color: #333; /* Definido a cor do texto como cinza escuro */
+}
+
+nav {
+    background-color: rgb(2, 18, 67); /* Fundo azul royal */
+    color: #fff; /* Texto branco */
+    padding: 30px 0;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Arial';
+}
+
+nav ul {
+    list-style-type: none; /* Sem marcadores na lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centralizado os itens do menu */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao cabeçalho */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.conteudo {
+    margin: 0 15%;
+    font-size: 20px;
+    height: 100vh;
+}
+
+.conteudo h1 { /* Configuração de título para todas as seções */
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.links-adicionais {
+    margin-top: 20px;
+}
+
+.links-adicionais a {
+    display: block;
+    margin: 20px 0;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.links-adicionais a:hover {
+    text-decoration: underline;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #555;
+}
